@@ -8,7 +8,7 @@ and services such as requests routing, authentication, rate limiting, etc.
 
 **Kong dashboard** is a UI tool that will let you manage your Kong Gateway setup.
 
-## Compatibility
+## Compatibility 
 
 Current version of Kong dashboard is compatible with Kong 0.6.x, 0.7.x, 0.8.x and 0.9.x.
 
@@ -101,4 +101,4 @@ vagrant up
 
 ## Use
 
-You can now browse your kong dashboard at http://localhost:8080/dashboard/
+You  can now browse your kong dashboard at http://localhost:8080/dashboard/
