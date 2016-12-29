@@ -102,3 +102,9 @@ vagrant up
 ## Use
 
 You  can now browse your kong dashboard at http://localhost:8080/dashboard/
+
+## TODO
+swagger ui integration
+swagger editor integration
+kibana intergration
+dashboard login/permission manager(admin,read)
