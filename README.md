@@ -104,7 +104,6 @@ vagrant up
 
 ## Use
 
-<<<<<<< HEAD
 You  can now browse your kong dashboard at http://localhost:8080/dashboard/
 
 ## TODO
@@ -113,6 +112,3 @@ swagger editor integration
 kibana intergration
 dashboard login/permission manager(admin,read)
 multiple node manager
-=======
-You can now browse your kong dashboard at http://localhost:8080
->>>>>>> upstream/master
