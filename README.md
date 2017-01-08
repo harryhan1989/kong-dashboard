@@ -1,7 +1,5 @@
 # Kong Dashboard
 
-[![](https://badge.imagelayers.io/pgbi/kong-dashboard:latest.svg)](https://imagelayers.io/?images=pgbi/kong-dashboard:latest 'Get your own badge on imagelayers.io')
-
 [**Kong**](https://getkong.org/) is a scalable, open source API Layer (also known as a API Gateway, or API Middleware).
 Kong runs in front of any RESTful API and provide functionalities
 and services such as requests routing, authentication, rate limiting, etc.
@@ -57,7 +55,7 @@ kong-dashboard start -a user=password
 
 # You can set basic auth user with environment variables
 # Do not set -a parameter or this will be overwritten
-set kong-dashboard-name=admin&& set kong-dashboard-pass=password&& kong-dashboard start
+set kong-dashboard-name=admin && set kong-dashboard-pass=password && kong-dashboard start
 ```
 
 ### From sources
@@ -79,12 +77,17 @@ npm start -- [-p port] [-a user=password]
 
 ### With Docker
 
+[![](https://images.microbadger.com/badges/image/pgbi/kong-dashboard.svg)](https://microbadger.com/images/pgbi/kong-dashboard "Get your own image badge on microbadger.com")
+
 ```bash
 # Start Kong Dashboard
 docker run -d -p 8080:8080 pgbi/kong-dashboard
 
 # Start Kong Dashboard on a custom port
 docker run -d -p [port]:8080 pgbi/kong-dashboard
+
+# Start Kong Dashboard with basic auth
+docker run -d -p 8080:8080 pgbi/kong-dashboard npm start -- -a user=password
 ```
 
 
@@ -101,6 +104,7 @@ vagrant up
 
 ## Use
 
+<<<<<<< HEAD
 You  can now browse your kong dashboard at http://localhost:8080/dashboard/
 
 ## TODO
@@ -109,3 +113,6 @@ swagger editor integration
 kibana intergration
 dashboard login/permission manager(admin,read)
 multiple node manager
+=======
+You can now browse your kong dashboard at http://localhost:8080
+>>>>>>> upstream/master
