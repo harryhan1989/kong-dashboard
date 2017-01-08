@@ -108,3 +108,4 @@ swagger ui integration
 swagger editor integration
 kibana intergration
 dashboard login/permission manager(admin,read)
+multiple node manager
